@@ -10,13 +10,13 @@ __END__
 @@ layout
 %html
 	%head
-		:javascript
-			alert('skldfj');
-	= yield
-	%p from layout . . .
+	%body
+		= yield
+		%p crazy . . .
    
 %script{:type => "text/javascript", :src => "/js/jquery-1.5.1.js"}
 %script{:type => "text/javascript", :src => "/js/jquery.videoBG.js"}
+%script{:type => "text/javascript", :src => "/js/wordandnumber.js"}
 
 @@ index
-'Hello world!'
+crab
